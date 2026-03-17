@@ -1,5 +1,5 @@
 # odin-form
 
-# Logos by Odin
-# Image from Unsplash
-# Font from Norse
+<p>Logos by Odin</p>
+<p>Image from Unsplash</p>
+<p>Font from Norse</p>
