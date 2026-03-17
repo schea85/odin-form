@@ -31,7 +31,7 @@ Left Side
     display: flex;
     flex-direction: row;
     background-position: left;
-    background-image: url("/images/odin_form_photo.jpg");
+    background-image: url("../images/odin_form_photo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
