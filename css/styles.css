@@ -1,0 +1,180 @@
+
+@font-face {
+    font-family: "Skranji-Bold";
+    src: url("../fonts/Skranji/Skranji-Bold.ttf") format("truetype");
+}
+
+* {
+   
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ==========
+Left Side
+========== */
+.left {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-position: left;
+    background-image: url("/images/odin_form_photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logos-centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+
+}
+
+.logos-centered img {
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+}
+
+.logos-centered h1 {
+    font-family: "Skranji-Bold";
+    color: whitesmoke;
+}
+
+.credit-container {
+    justify-content: flex-end;
+}
+
+/* ==========
+Right Side
+========== */
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: rgb(240, 242, 244);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.top-right {
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgb(240, 242, 244);
+}
+
+.top-right p {
+    font-size: .8rem;
+    font-weight: bold;
+    line-height: 1.25;
+
+}
+
+/* Form */
+
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px lightgrey;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+}
+
+.fieldset-container {
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.fieldset-container p {
+    margin-left: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+button {
+    background-color: #596D48;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.bottom-right p {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: .7rem;
+}
+
+/* Credit */
+.credit-container {
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+}
+
+.credit-container p {
+    color: whitesmoke;
+    font-size: .6rem;
+}
+
+.credit-container a {
+    color: whitesmoke;
+}
+
+input {
+    border: 1px solid black;
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+input[type="password"]:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
