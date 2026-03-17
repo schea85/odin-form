@@ -62,6 +62,10 @@ Left Side
     justify-content: flex-end;
 }
 
+.left-bottom {
+    text-align: center;
+}
+
 /* ==========
 Right Side
 ========== */
